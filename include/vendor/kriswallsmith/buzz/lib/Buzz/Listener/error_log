@@ -1,0 +1,4 @@
+[23-Sep-2018 14:26:52 UTC] PHP Fatal error:  Interface 'Buzz\Listener\ListenerInterface' not found in /home2/animasharkcom/public_html/vendor/kriswallsmith/buzz/lib/Buzz/Listener/DigestAuthListener.php on line 8
+[23-Sep-2018 14:26:56 UTC] PHP Fatal error:  Interface 'Buzz\Listener\ListenerInterface' not found in /home2/animasharkcom/public_html/vendor/kriswallsmith/buzz/lib/Buzz/Listener/DigestAuthListener.php on line 8
+[23-Sep-2018 14:27:08 UTC] PHP Fatal error:  Interface 'Buzz\Listener\ListenerInterface' not found in /home2/animasharkcom/public_html/vendor/kriswallsmith/buzz/lib/Buzz/Listener/ListenerChain.php on line 8
+[23-Sep-2018 14:27:11 UTC] PHP Fatal error:  Interface 'Buzz\Listener\ListenerInterface' not found in /home2/animasharkcom/public_html/vendor/kriswallsmith/buzz/lib/Buzz/Listener/ListenerChain.php on line 8
