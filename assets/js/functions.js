@@ -38,6 +38,141 @@ $(document).ready(function() {
             }
         }
     });
+    $('.owl-cate').owlCarousel({
+        loop:true,
+        nav:false,
+        dots:true,
+        margin:20,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        autoplayHoverPause: false,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+            },
+            600:{
+                items:2,
+            },
+            1000:{
+                items:6,
+            },
+            1200:{
+                items:6,
+            },
+            500:{
+                items: 1,
+            }
+        }
+    });
+    $('.owl-prod2').owlCarousel({
+        loop:true,
+        nav:false,
+        dots:true,
+        margin:20,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        autoplayHoverPause: false,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+            },
+            600:{
+                items:2,
+            },
+            1000:{
+                items:6,
+            },
+            1200:{
+                items:6,
+            },
+            500:{
+                items: 1,
+            }
+        }
+    });
+    $('.owl-region').owlCarousel({
+        loop:true,
+        nav:true,
+        dots:false,
+        margin:20,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        autoplayHoverPause: false,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:3,
+            },
+            600:{
+                items:4,
+            },
+            1000:{
+                items:6,
+            },
+            1200:{
+                items:8,
+            },
+            500:{
+                items: 3,
+            }
+        }
+    });
+    $('.owl-testimonial').owlCarousel({
+        loop:true,
+        nav:true,
+        dots:false,
+        margin:20,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        autoplayHoverPause: false,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+            },
+            600:{
+                items:1,
+            },
+            1000:{
+                items:1,
+            },
+            1200:{
+                items:1,
+            },
+            500:{
+                items: 1,
+            }
+        }
+    });
+    $('.owl-read').owlCarousel({
+        loop:true,
+        nav:false,
+        dots:true,
+        margin:20,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        autoplayHoverPause: false,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+            },
+            600:{
+                items:1,
+            },
+            1000:{
+                items:1,
+            },
+            1200:{
+                items:1,
+            },
+            500:{
+                items: 1,
+            }
+        }
+    });
     $('.owl-core').owlCarousel({
         items: 1,
         loop: true,
@@ -58,6 +193,7 @@ $(document).ready(function() {
         smartSpeed: 900,
         navText: ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
     });
+
 });
 
 

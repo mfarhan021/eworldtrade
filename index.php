@@ -14,21 +14,23 @@ include $_SERVER['DOCUMENT_ROOT'].'/include/csfr.php'; */?>
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h1>
-                    The Leading B2B Ecommerce Platform <br>
-                    for <span>Global Trade</span>
-                </h1>
-                <?php include($_SERVER['DOCUMENT_ROOT']."/eworldtrade/include/searchbar.php"); ?>
-                <ul>
-                    <li>
-                        Popular Searches:
-                    </li>
-                    <li><a href="javascript:">Raisins</a></li>
-                    <li><a href="javascript:">Lamp & Light</a></li>
-                    <li><a href="javascript:">Auto Accessories</a></li>
-                    <li><a href="javascript:">Boys Clothing</a></li>
-                    <li><a href="javascript:">Computer Parts</a></li>
-                </ul>
+                <div class="info-ban">
+                    <h1>
+                        The Leading B2B Ecommerce Platform <br>
+                        for <span>Global Trade</span>
+                    </h1>
+                    <?php include($_SERVER['DOCUMENT_ROOT']."/eworldtrade/include/searchbar.php"); ?>
+                    <ul>
+                        <li>
+                            Popular Searches:
+                        </li>
+                        <li><a href="javascript:">Raisins</a></li>
+                        <li><a href="javascript:">Lamp & Light</a></li>
+                        <li><a href="javascript:">Auto Accessories</a></li>
+                        <li><a href="javascript:">Boys Clothing</a></li>
+                        <li><a href="javascript:">Computer Parts</a></li>
+                    </ul>
+                </div>
             </div>
             <div class="col-md-6">
                 <div class="owl-homeslide1 owl-carousel owl-theme">
@@ -94,68 +96,70 @@ include $_SERVER['DOCUMENT_ROOT'].'/include/csfr.php'; */?>
                 <h4 class="sub-heading">
                     Latest Buy Offers
                 </h4>
-                <ul>
-                    <li>
-                        <img src="<?php echo $siteurl ?>/assets/images/supp-ico1.png" alt="">
-                        <p>
-                            DR Congo, <br>
-                            RFQ for Vanilla Beans,
-                        </p>
-                        <h6>
-                            26 Mar, 2024
-                        </h6>
-                    </li>
-                    <li>
-                        <img src="<?php echo $siteurl ?>/assets/images/supp-ico2.png" alt="">
-                        <p>
-                            Hong Kong, China. <br>
-                            Inquiry for the tungsten plate
-                        </p>
-                        <h6>
-                            26 Mar, 2024
-                        </h6>
-                    </li>
-                    <li>
-                        <img src="<?php echo $siteurl ?>/assets/images/supp-ico3.png" alt="">
-                        <p>
-                            Canada, <br>
-                            RFQ For Aluminum Ingots
-                        </p>
-                        <h6>
-                            26 Mar, 2024
-                        </h6>
-                    </li>
-                    <li>
-                        <img src="<?php echo $siteurl ?>/assets/images/supp-ico4.png" alt="">
-                        <p>
-                            Ukraine, <br>
-                            RFQ for Green Coffee
-                        </p>
-                        <h6>
-                            26 Mar, 2024
-                        </h6>
-                    </li>
-                    <li>
-                        <img src="<?php echo $siteurl ?>/assets/images/supp-ico5.png" alt="">
-                        <p>
-                            France, <br>
-                            Looking for Sleep patch
-                        </p>
-                        <h6>
-                            26 Mar, 2024
-                        </h6>
-                    </li>
-                    <li>
-                        <img src="<?php echo $siteurl ?>/assets/images/supp-ico6.png" alt="">
-                        <p>
-                            United States, <br>
-                            Inquiry for Research Chemicals
-                        </p>
-                        <h6>
-                            26 Mar, 2024
-                        </h6>
-                    </li>
-                </ul>
+                <div class="info-marq">
+                    <ul>
+                        <li>
+                            <img src="<?php echo $siteurl ?>/assets/images/supp-ico1.png" alt="">
+                            <p>
+                                DR Congo, <br>
+                                RFQ for Vanilla Beans,
+                            </p>
+                            <h6>
+                                26 Mar, 2024
+                            </h6>
+                        </li>
+                        <li>
+                            <img src="<?php echo $siteurl ?>/assets/images/supp-ico2.png" alt="">
+                            <p>
+                                Hong Kong, China. <br>
+                                Inquiry for the tungsten plate
+                            </p>
+                            <h6>
+                                26 Mar, 2024
+                            </h6>
+                        </li>
+                        <li>
+                            <img src="<?php echo $siteurl ?>/assets/images/supp-ico3.png" alt="">
+                            <p>
+                                Canada, <br>
+                                RFQ For Aluminum Ingots
+                            </p>
+                            <h6>
+                                26 Mar, 2024
+                            </h6>
+                        </li>
+                        <li>
+                            <img src="<?php echo $siteurl ?>/assets/images/supp-ico4.png" alt="">
+                            <p>
+                                Ukraine, <br>
+                                RFQ for Green Coffee
+                            </p>
+                            <h6>
+                                26 Mar, 2024
+                            </h6>
+                        </li>
+                        <li>
+                            <img src="<?php echo $siteurl ?>/assets/images/supp-ico5.png" alt="">
+                            <p>
+                                France, <br>
+                                Looking for Sleep patch
+                            </p>
+                            <h6>
+                                26 Mar, 2024
+                            </h6>
+                        </li>
+                        <li>
+                            <img src="<?php echo $siteurl ?>/assets/images/supp-ico6.png" alt="">
+                            <p>
+                                United States, <br>
+                                Inquiry for Research Chemicals
+                            </p>
+                            <h6>
+                                26 Mar, 2024
+                            </h6>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -435,78 +439,176 @@ include $_SERVER['DOCUMENT_ROOT'].'/include/csfr.php'; */?>
             </p>
         </div>
         <ul>
-            <li>
-                <a href="javascript:">
-                    <img src="<?php echo $siteurl ?>/assets/images/browse-ico1.png" alt="">
-                    <h6>Apparel</h6>
-                </a>
-            </li>
-            <li>
-                <a href="javascript:">
-                    <img src="<?php echo $siteurl ?>/assets/images/browse-ico2.png" alt="">
-                    <h6>Appliances</h6>
-                </a>
-            </li>
-            <li>
-                <a href="javascript:">
-                    <img src="<?php echo $siteurl ?>/assets/images/browse-ico3.png" alt="">
-                    <h6>Machinery</h6>
-                </a>
-            </li>
-            <li>
-                <a href="javascript:">
-                    <img src="<?php echo $siteurl ?>/assets/images/browse-ico4.png" alt="">
-                    <h6>Beauty & Care</h6>
-                </a>
-            </li>
-            <li>
-                <a href="javascript:">
-                    <img src="<?php echo $siteurl ?>/assets/images/browse-ico5.png" alt="">
-                    <h6>Security</h6>
-                </a>
-            </li>
-            <li>
-                <a href="javascript:">
-                    <img src="<?php echo $siteurl ?>/assets/images/browse-ico6.png" alt="">
-                    <h6>Lights & Lighting</h6>
-                </a>
-            </li>
-            <li>
-                <a href="javascript:">
-                    <img src="<?php echo $siteurl ?>/assets/images/browse-ico7.png" alt="">
-                    <h6>Automobiles</h6>
-                </a>
-            </li>
-            <li>
-                <a href="javascript:">
-                    <img src="<?php echo $siteurl ?>/assets/images/browse-ico8.png" alt="">
-                    <h6>Chemicals</h6>
-                </a>
-            </li>
-            <li>
-                <a href="javascript:">
-                    <img src="<?php echo $siteurl ?>/assets/images/browse-ico9.png" alt="">
-                    <h6>Food &  Beverage</h6>
-                </a>
-            </li>
-            <li>
-                <a href="javascript:">
-                    <img src="<?php echo $siteurl ?>/assets/images/browse-ico10.png" alt="">
-                    <h6>Minerals</h6>
-                </a>
-            </li>
-            <li>
-                <a href="javascript:">
-                    <img src="<?php echo $siteurl ?>/assets/images/browse-ico11.png" alt="">
-                    <h6>Textile & Leather</h6>
-                </a>
-            </li>
-            <li>
-                <a href="javascript:">
-                    <img src="<?php echo $siteurl ?>/assets/images/browse-ico12.png" alt="">
-                    <h6>Natural Stone</h6>
-                </a>
-            </li>
+            <div class="owl-cate owl-carousel owl-theme" >
+                <div class="item">
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/browse-ico1.png" alt="">
+                            <h6>Apparel</h6>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/browse-ico7.png" alt="">
+                            <h6>Automobiles</h6>
+                        </a>
+                    </li>
+                </div>
+                <div class="item">
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/browse-ico2.png" alt="">
+                            <h6>Appliances</h6>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/browse-ico8.png" alt="">
+                            <h6>Chemicals</h6>
+                        </a>
+                    </li>
+                </div>
+                <div class="item">
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/browse-ico3.png" alt="">
+                            <h6>Machinery</h6>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/browse-ico9.png" alt="">
+                            <h6>Food &  Beverage</h6>
+                        </a>
+                    </li>
+                </div>
+                <div class="item">
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/browse-ico4.png" alt="">
+                            <h6>Beauty & Care</h6>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/browse-ico10.png" alt="">
+                            <h6>Minerals</h6>
+                        </a>
+                    </li>
+                </div>
+                <div class="item">
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/browse-ico5.png" alt="">
+                            <h6>Security</h6>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/browse-ico11.png" alt="">
+                            <h6>Textile & Leather</h6>
+                        </a>
+                    </li>
+                </div>
+                <div class="item">
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/browse-ico6.png" alt="">
+                            <h6>Lights & Lighting</h6>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/browse-ico12.png" alt="">
+                            <h6>Natural Stone</h6>
+                        </a>
+                    </li>
+                </div>
+                <div class="item">
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/browse-ico1.png" alt="">
+                            <h6>Apparel</h6>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/browse-ico7.png" alt="">
+                            <h6>Automobiles</h6>
+                        </a>
+                    </li>
+                </div>
+                <div class="item">
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/browse-ico2.png" alt="">
+                            <h6>Appliances</h6>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/browse-ico8.png" alt="">
+                            <h6>Chemicals</h6>
+                        </a>
+                    </li>
+                </div>
+                <div class="item">
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/browse-ico3.png" alt="">
+                            <h6>Machinery</h6>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/browse-ico9.png" alt="">
+                            <h6>Food &  Beverage</h6>
+                        </a>
+                    </li>
+                </div>
+                <div class="item">
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/browse-ico4.png" alt="">
+                            <h6>Beauty & Care</h6>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/browse-ico10.png" alt="">
+                            <h6>Minerals</h6>
+                        </a>
+                    </li>
+                </div>
+                <div class="item">
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/browse-ico5.png" alt="">
+                            <h6>Security</h6>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/browse-ico11.png" alt="">
+                            <h6>Textile & Leather</h6>
+                        </a>
+                    </li>
+                </div>
+                <div class="item">
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/browse-ico6.png" alt="">
+                            <h6>Lights & Lighting</h6>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/browse-ico12.png" alt="">
+                            <h6>Natural Stone</h6>
+                        </a>
+                    </li>
+                </div>
+            </div>
         </ul>
     </div>
 </section>
@@ -522,91 +624,200 @@ include $_SERVER['DOCUMENT_ROOT'].'/include/csfr.php'; */?>
             </p>
         </div>
         <ul>
-            <li>
-                <a href="javascript:">
-                    <img src="<?php echo $siteurl ?>/assets/images/our-fea-1.png" alt="">
-                </a>
-                <h6>Wooden Pendant Ceiling <br>
-                    Hanging Light Lamp</h6>
-            </li>
-            <li>
-                <a href="javascript:">
-                    <img src="<?php echo $siteurl ?>/assets/images/our-fea-2.png" alt="">
-                </a>
-                <h6>Electric Eyebrow Trimmer
-                    and Shaver</h6>
-            </li>
-            <li>
-                <a href="javascript:">
-                    <img src="<?php echo $siteurl ?>/assets/images/our-fea-3.png" alt="">
-                </a>
-                <h6>Printed Bedsheet with
-                    2 Pillow Covers - Design 1</h6>
-            </li>
-            <li>
-                <a href="javascript:">
-                    <img src="<?php echo $siteurl ?>/assets/images/our-fea-4.png" alt="">
-                </a>
-                <h6>Professional Makeup
-                    24pcs Brush Set</h6>
-            </li>
-            <li>
-                <a href="javascript:">
-                    <img src="<?php echo $siteurl ?>/assets/images/our-fea-5.png" alt="">
-                </a>
-                <h6>Wooden Pendant Ceiling
-                    Hanging Light Lamp | lights </h6>
-            </li>
-            <li>
-                <a href="javascript:">
-                    <img src="<?php echo $siteurl ?>/assets/images/our-fea-6.png" alt="">
-                </a>
-                <h6>I7 Mini Bluetooth
-                    Headset Earbud</h6>
-            </li>
-
-            <li>
-                <a href="javascript:">
-                    <img src="<?php echo $siteurl ?>/assets/images/our-fea-7.png" alt="">
-                </a>
-                <h6>Leaf Shape Soap Box -
-                    Drain Soap Holder for </h6>
-            </li>
-            <li>
-                <a href="javascript:">
-                    <img src="<?php echo $siteurl ?>/assets/images/our-fea-8.png" alt="">
-                </a>
-                <h6>Spoon Holders Fork Spatula
-                    Rack Shelf </h6>
-            </li>
-            <li>
-                <a href="javascript:">
-                    <img src="<?php echo $siteurl ?>/assets/images/our-fea-9.png" alt="">
-                </a>
-                <h6>OK Fashion Boys And Men's
-                    Water Proof Casual </h6>
-            </li>
-            <li>
-                <a href="javascript:">
-                    <img src="<?php echo $siteurl ?>/assets/images/our-fea-10.png" alt="">
-                </a>
-                <h6>New Luxury Love Rhinestone
-                    Jewelry Ladies </h6>
-            </li>
-            <li>
-                <a href="javascript:">
-                    <img src="<?php echo $siteurl ?>/assets/images/our-fea-11.png" alt="">
-                </a>
-                <h6>Black Men Sports black
-                    Sneaker Running Walking </h6>
-            </li>
-            <li>
-                <a href="javascript:">
-                    <img src="<?php echo $siteurl ?>/assets/images/our-fea-12.png" alt="">
-                </a>
-                <h6>Homel Wireless Bluetooth5.2
-                    Headphones </h6>
-            </li>
+            <div class="owl-prod2 owl-carousel owl-theme">
+                <div class="item">
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/our-fea-1.png" alt="">
+                        </a>
+                        <h6>Wooden Pendant Ceiling <br>
+                            Hanging Light Lamp</h6>
+                    </li>
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/our-fea-7.png" alt="">
+                        </a>
+                        <h6>Leaf Shape Soap Box -
+                            Drain Soap Holder for </h6>
+                    </li>
+                </div>
+                <div class="item">
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/our-fea-2.png" alt="">
+                        </a>
+                        <h6>Electric Eyebrow Trimmer
+                            and Shaver</h6>
+                    </li>
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/our-fea-8.png" alt="">
+                        </a>
+                        <h6>Spoon Holders Fork Spatula
+                            Rack Shelf </h6>
+                    </li>
+                </div>
+                <div class="item">
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/our-fea-3.png" alt="">
+                        </a>
+                        <h6>Printed Bedsheet with
+                            2 Pillow Covers - Design 1</h6>
+                    </li>
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/our-fea-9.png" alt="">
+                        </a>
+                        <h6>OK Fashion Boys And Men's
+                            Water Proof Casual </h6>
+                    </li>
+                </div>
+                <div class="item">
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/our-fea-4.png" alt="">
+                        </a>
+                        <h6>Professional Makeup
+                            24pcs Brush Set</h6>
+                    </li>
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/our-fea-10.png" alt="">
+                        </a>
+                        <h6>New Luxury Love Rhinestone
+                            Jewelry Ladies </h6>
+                    </li>
+                </div>
+                <div class="item">
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/our-fea-5.png" alt="">
+                        </a>
+                        <h6>Wooden Pendant Ceiling
+                            Hanging Light Lamp | lights </h6>
+                    </li>
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/our-fea-11.png" alt="">
+                        </a>
+                        <h6>Black Men Sports black
+                            Sneaker Running Walking </h6>
+                    </li>
+                </div>
+                <div class="item">
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/our-fea-6.png" alt="">
+                        </a>
+                        <h6>I7 Mini Bluetooth
+                            Headset Earbud</h6>
+                    </li>
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/our-fea-12.png" alt="">
+                        </a>
+                        <h6>Homel Wireless Bluetooth5.2
+                            Headphones </h6>
+                    </li>
+                </div>
+                <div class="item">
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/our-fea-1.png" alt="">
+                        </a>
+                        <h6>Wooden Pendant Ceiling <br>
+                            Hanging Light Lamp</h6>
+                    </li>
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/our-fea-7.png" alt="">
+                        </a>
+                        <h6>Leaf Shape Soap Box -
+                            Drain Soap Holder for </h6>
+                    </li>
+                </div>
+                <div class="item">
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/our-fea-2.png" alt="">
+                        </a>
+                        <h6>Electric Eyebrow Trimmer
+                            and Shaver</h6>
+                    </li>
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/our-fea-8.png" alt="">
+                        </a>
+                        <h6>Spoon Holders Fork Spatula
+                            Rack Shelf </h6>
+                    </li>
+                </div>
+                <div class="item">
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/our-fea-3.png" alt="">
+                        </a>
+                        <h6>Printed Bedsheet with
+                            2 Pillow Covers - Design 1</h6>
+                    </li>
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/our-fea-9.png" alt="">
+                        </a>
+                        <h6>OK Fashion Boys And Men's
+                            Water Proof Casual </h6>
+                    </li>
+                </div>
+                <div class="item">
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/our-fea-4.png" alt="">
+                        </a>
+                        <h6>Professional Makeup
+                            24pcs Brush Set</h6>
+                    </li>
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/our-fea-10.png" alt="">
+                        </a>
+                        <h6>New Luxury Love Rhinestone
+                            Jewelry Ladies </h6>
+                    </li>
+                </div>
+                <div class="item">
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/our-fea-5.png" alt="">
+                        </a>
+                        <h6>Wooden Pendant Ceiling
+                            Hanging Light Lamp | lights </h6>
+                    </li>
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/our-fea-11.png" alt="">
+                        </a>
+                        <h6>Black Men Sports black
+                            Sneaker Running Walking </h6>
+                    </li>
+                </div>
+                <div class="item">
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/our-fea-6.png" alt="">
+                        </a>
+                        <h6>I7 Mini Bluetooth
+                            Headset Earbud</h6>
+                    </li>
+                    <li>
+                        <a href="javascript:">
+                            <img src="<?php echo $siteurl ?>/assets/images/our-fea-12.png" alt="">
+                        </a>
+                        <h6>Homel Wireless Bluetooth5.2
+                            Headphones </h6>
+                    </li>
+                </div>
+            </div>
         </ul>
     </div>
 </section>
@@ -645,11 +856,537 @@ include $_SERVER['DOCUMENT_ROOT'].'/include/csfr.php'; */?>
         </div>
     </div>
 </section>
-<section class="oneplace">
+
+<section class="our-stream">
     <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="info-stream">
+                    <h2>
+                        Streamline ordering from <br>
+                        search to fulfillment, all in one place
+                    </h2>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="info-stream">
+                    <a href="javascript:;" class="btn btn-red">
+                        Secure Buying Process
+                    </a>
+                    <a href="javascript:;" class="btn btn-grey">
+                        Convenient Selling Process
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="col-md-11">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="stream-tab1" data-bs-toggle="tab" data-bs-target="#stream1" type="button" role="tab" aria-controls="stream1" aria-selected="true">
+                        <span>
+                            <img src="<?php echo $siteurl ?>/assets/images/st-ic1.png" alt="">
+                        </span>
+                            Search for Matches
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="stream-tab2" data-bs-toggle="tab" data-bs-target="#stream2" type="button" role="tab" aria-controls="stream2" aria-selected="false">
+                        <span>
+                            <img src="<?php echo $siteurl ?>/assets/images/st-ic2.png" alt="">
+                        </span>
+                            Identify the Right One
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="stream-tab3" data-bs-toggle="tab" data-bs-target="#stream3" type="button" role="tab" aria-controls="stream3" aria-selected="false">
+                        <span>
+                            <img src="<?php echo $siteurl ?>/assets/images/st-ic3.png" alt="">
+                        </span>
+                            Pay with Confidence
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="stream-tab4" data-bs-toggle="tab" data-bs-target="#stream4" type="button" role="tab" aria-controls="stream4" aria-selected="false">
+                        <span>
+                            <img src="<?php echo $siteurl ?>/assets/images/st-ic4.png" alt="">
+                        </span>
+                            Fulfill with Transparency
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="stream-tab5" data-bs-toggle="tab" data-bs-target="#stream5" type="button" role="tab" aria-controls="stream5" aria-selected="false">
+                        <span>
+                            <img src="<?php echo $siteurl ?>/assets/images/st-ic5.png" alt="">
+                        </span>
+                            Manage with Ease
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row row-stram-ls">
+            <div class="col-md-10">
+                <div class="stream-slide tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="stream1" role="tabpanel" aria-labelledby="stream-tab1">
+                        <div class="row row-stream">
+                            <div class="col-md-6">
+                                <div class="info-streamsl">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat.
+                                        <br><br>
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="<?php echo $siteurl ?>/assets/images/st-img1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="stream2" role="tabpanel" aria-labelledby="stream-tab2">
+                        <div class="row row-stream">
+                            <div class="col-md-6">
+                                <div class="info-streamsl">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat.
+                                        <br><br>
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="<?php echo $siteurl ?>/assets/images/st-img1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="stream3" role="tabpanel" aria-labelledby="stream-tab3">
+                        <div class="row row-stream">
+                            <div class="col-md-6">
+                                <div class="info-streamsl">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat.
+                                        <br><br>
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="<?php echo $siteurl ?>/assets/images/st-img1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="stream4" role="tabpanel" aria-labelledby="stream-tab4">
+                        <div class="row row-stream">
+                            <div class="col-md-6">
+                                <div class="info-streamsl">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat.
+                                        <br><br>
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="<?php echo $siteurl ?>/assets/images/st-img1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="stream5" role="tabpanel" aria-labelledby="stream-tab5">
+                        <div class="row row-stream">
+                            <div class="col-md-6">
+                                <div class="info-streamsl">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat.
+                                        <br><br>
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="<?php echo $siteurl ?>/assets/images/st-img1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
 </section>
+
+<section class="add-images">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="<?php echo $siteurl ?>/assets/images/add-img1.png" alt="">
+            </div>
+            <div class="col-md-6">
+                <img src="<?php echo $siteurl ?>/assets/images/add-img2.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="get-ready">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="info-ready">
+                    <h2>
+                        Ready to Get Started?
+                    </h2>
+                    <h6>
+                        Explore millions of products from trusted suppliers by signing up today!
+                    </h6>
+                    <a href="javascript:;" class="btn btn-red"> Contact us</a>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="info-read">
+                    <h5 class="sub-heading">
+                        Upcoming Tradeshows
+                        <a href="javascript:;"> Learn More</a>
+                    </h5>
+                    <div class="info-marq read-ul">
+                        <ul>
+                            <div class="owl-read owl-carousel owl-theme">
+                                <div class="item">
+                                    <li>
+                                        <img src="<?php echo $siteurl ?>/assets/images/read1.png" alt="">
+                                        <div class="in-read">
+                                            <h4>
+                                                Africa's Big 7
+                                                <span>Johannesburg , South Africa </span>
+                                            </h4>
+                                            <h6>
+                                                24 - 26 June, 2023
+                                            </h6>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="<?php echo $siteurl ?>/assets/images/read2.png" alt="">
+                                        <div class="in-read">
+                                            <h4>
+                                                3d Print Expo Turkey
+                                                Africa's Big 7
+                                                <span>Istanbul, Turkey</span>
+                                            </h4>
+                                            <h6>
+                                                April, 2023
+                                            </h6>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="<?php echo $siteurl ?>/assets/images/read3.png" alt="">
+                                        <div class="in-read">
+                                            <h4>
+                                                China Smart Customs Exhibition
+                                                & Conference
+                                                <span>Shanghai , China </span>
+                                            </h4>
+                                            <h6>
+                                                15 - 17 August, 2023
+                                            </h6>
+                                        </div>
+                                    </li>
+                                </div>
+                                <div class="item">
+                                    <li>
+                                        <img src="<?php echo $siteurl ?>/assets/images/read1.png" alt="">
+                                        <div class="in-read">
+                                            <h4>
+                                                Africa's Big 7
+                                                <span>Johannesburg , South Africa </span>
+                                            </h4>
+                                            <h6>
+                                                24 - 26 June, 2023
+                                            </h6>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="<?php echo $siteurl ?>/assets/images/read2.png" alt="">
+                                        <div class="in-read">
+                                            <h4>
+                                                3d Print Expo Turkey
+                                                Africa's Big 7
+                                                <span>Istanbul, Turkey</span>
+                                            </h4>
+                                            <h6>
+                                                April, 2023
+                                            </h6>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="<?php echo $siteurl ?>/assets/images/read3.png" alt="">
+                                        <div class="in-read">
+                                            <h4>
+                                                China Smart Customs Exhibition
+                                                & Conference
+                                                <span>Shanghai , China </span>
+                                            </h4>
+                                            <h6>
+                                                15 - 17 August, 2023
+                                            </h6>
+                                        </div>
+                                    </li>
+                                </div>
+                                <div class="item">
+                                    <li>
+                                        <img src="<?php echo $siteurl ?>/assets/images/read1.png" alt="">
+                                        <div class="in-read">
+                                            <h4>
+                                                Africa's Big 7
+                                                <span>Johannesburg , South Africa </span>
+                                            </h4>
+                                            <h6>
+                                                24 - 26 June, 2023
+                                            </h6>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="<?php echo $siteurl ?>/assets/images/read2.png" alt="">
+                                        <div class="in-read">
+                                            <h4>
+                                                3d Print Expo Turkey
+                                                Africa's Big 7
+                                                <span>Istanbul, Turkey</span>
+                                            </h4>
+                                            <h6>
+                                                April, 2023
+                                            </h6>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="<?php echo $siteurl ?>/assets/images/read3.png" alt="">
+                                        <div class="in-read">
+                                            <h4>
+                                                China Smart Customs Exhibition
+                                                & Conference
+                                                <span>Shanghai , China </span>
+                                            </h4>
+                                            <h6>
+                                                15 - 17 August, 2023
+                                            </h6>
+                                        </div>
+                                    </li>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<main class="reg-test">
+    <div class="container">
+        <section class="our-region">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h2>
+                            Regional Channel
+                        </h2>
+                        <div class="owl-region owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="info-reg">
+                                    <img src="<?php echo $siteurl ?>/assets/images/reg1.png" alt="">
+                                    <h4>
+                                        China
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info-reg">
+                                    <img src="<?php echo $siteurl ?>/assets/images/reg2.png" alt="">
+                                    <h4>
+                                        India
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info-reg">
+                                    <img src="<?php echo $siteurl ?>/assets/images/reg3.png" alt="">
+                                    <h4>
+                                        Türkiye
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info-reg">
+                                    <img src="<?php echo $siteurl ?>/assets/images/reg4.png" alt="">
+                                    <h4>
+                                        USA
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info-reg">
+                                    <img src="<?php echo $siteurl ?>/assets/images/reg5.png" alt="">
+                                    <h4>
+                                        Japan
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info-reg">
+                                    <img src="<?php echo $siteurl ?>/assets/images/reg6.png" alt="">
+                                    <h4>
+                                        Germany
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info-reg">
+                                    <img src="<?php echo $siteurl ?>/assets/images/reg7.png" alt="">
+                                    <h4>
+                                        Malaysia
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info-reg">
+                                    <img src="<?php echo $siteurl ?>/assets/images/reg8.png" alt="">
+                                    <h4>
+                                        Egypt
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info-reg">
+                                    <img src="<?php echo $siteurl ?>/assets/images/reg1.png" alt="">
+                                    <h4>
+                                        China
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info-reg">
+                                    <img src="<?php echo $siteurl ?>/assets/images/reg2.png" alt="">
+                                    <h4>
+                                        India
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info-reg">
+                                    <img src="<?php echo $siteurl ?>/assets/images/reg3.png" alt="">
+                                    <h4>
+                                        Türkiye
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info-reg">
+                                    <img src="<?php echo $siteurl ?>/assets/images/reg4.png" alt="">
+                                    <h4>
+                                        USA
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info-reg">
+                                    <img src="<?php echo $siteurl ?>/assets/images/reg5.png" alt="">
+                                    <h4>
+                                        Japan
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info-reg">
+                                    <img src="<?php echo $siteurl ?>/assets/images/reg6.png" alt="">
+                                    <h4>
+                                        Germany
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info-reg">
+                                    <img src="<?php echo $siteurl ?>/assets/images/reg7.png" alt="">
+                                    <h4>
+                                        Malaysia
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="info-reg">
+                                    <img src="<?php echo $siteurl ?>/assets/images/reg8.png" alt="">
+                                    <h4>
+                                        Egypt
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="our-growth">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="heading text-center">
+                        <h2>
+                            Unlock tailored discounts, services, and tools matched <br>
+                            to your business's growth phase.
+                        </h2>
+                        <p>
+                            Explore firsthand experiences from our valued partners and clients as they share how eWorld Trade has revolutionized their businesses. From enhanced efficiency to accelerated growth, our platform is the catalyst for their success.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <div class="owl-testimonial owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="info-test">
+                                <img class="test-img" src="<?php echo $siteurl ?>/assets/images/test-img1.png" alt="">
+                                <div class="intext1">
+                                    <h5>
+                                        Peter Liu
+                                        <span>
+                                            Sales Manager
+                                        </span>
+                                    </h5>
+                                </div>
+                                <img class="ts-qoute" src="<?php echo $siteurl ?>/assets/images/test-qoute.png" alt="">
+                                <h4>
+                                    eWorld is very good B2B platform. they are not help in generating good business leads but within 2 months we have got 3 samples from them and very professional website and google SEO.
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="info-test">
+                                <img class="test-img" src="<?php echo $siteurl ?>/assets/images/test-img1.png" alt="">
+                                <div class="intext1">
+                                    <h5>
+                                        Peter Liu
+                                        <span>
+                                            Sales Manager
+                                        </span>
+                                    </h5>
+                                </div>
+                                <img class="ts-qoute" src="<?php echo $siteurl ?>/assets/images/test-qoute.png" alt="">
+                                <h4>
+                                    eWorld is very good B2B platform. they are not help in generating good business leads but within 2 months we have got 3 samples from them and very professional website and google SEO.
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+</main>
+
+<div class="escow-img">
+    <div class="container">
+        <img src="<?php echo $siteurl ?>/assets/images/escrow2.png" alt="">
+    </div>
+</div>
+
+
 
 <?php include($_SERVER['DOCUMENT_ROOT']."/eworldtrade/include/footer.php"); ?>
 <?php include($_SERVER['DOCUMENT_ROOT']."/eworldtrade/include/footer-scripts.php"); ?>
