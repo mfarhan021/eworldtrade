@@ -193,7 +193,34 @@ $(document).ready(function() {
         smartSpeed: 900,
         navText: ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
     });
-
+    $('.owl-catpage').owlCarousel({
+        loop:true,
+        nav:true,
+        dots:false,
+        margin:20,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        autoplayHoverPause: false,
+        responsiveClass:true,
+        navText: ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+        responsive:{
+            0:{
+                items:1,
+            },
+            600:{
+                items:2,
+            },
+            1000:{
+                items:6,
+            },
+            1200:{
+                items:6,
+            },
+            500:{
+                items: 1,
+            }
+        }
+    });
 });
 
 
