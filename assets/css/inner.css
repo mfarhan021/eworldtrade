@@ -820,8 +820,8 @@ a.brd-red:hover {
 footer ul li a:hover {
     color: #e13139;
 }
-.product-header .head-search {
+.inner-header .head-search {
     margin-left: -50px;
     width: 117%;
     border-color: #fd384f;
-}
+} 

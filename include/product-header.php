@@ -1,5 +1,5 @@
 <?php include($_SERVER['DOCUMENT_ROOT']."/eworldtrade/include/header-topbar.php"); ?>
-<header class="inner-header product-header">
+<header class="inner-header">
     <div class="container">
         <div class="row">
             <div class="col-md-3">
