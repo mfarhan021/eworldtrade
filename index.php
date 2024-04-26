@@ -417,7 +417,7 @@ include $_SERVER['DOCUMENT_ROOT'].'/include/csfr.php'; */?>
                             </p>
                         </div>
                         <div class="col-md-6">
-                            <div class="btn-form">
+                            <div class="F-form">
                                 <button type="submit" class="btn btn-red">Submit Details</button>
                             </div>
                         </div>
@@ -1380,14 +1380,7 @@ include $_SERVER['DOCUMENT_ROOT'].'/include/csfr.php'; */?>
     </div>
 </main>
 
-<div class="escow-img">
-    <div class="container">
-        <img src="<?php echo $siteurl ?>/assets/images/escrow2.png" alt="">
-    </div>
-</div>
-
-
-
+<?php include($_SERVER['DOCUMENT_ROOT']."/eworldtrade/include/escow.php"); ?>
 <?php include($_SERVER['DOCUMENT_ROOT']."/eworldtrade/include/footer.php"); ?>
 <?php include($_SERVER['DOCUMENT_ROOT']."/eworldtrade/include/footer-scripts.php"); ?>
 </body>

@@ -753,3 +753,75 @@ li {
     position: absolute;
     bottom: -68px;
 }
+a.brd-red {border: 1px solid #fd384f;
+}
+.top-selling {
+    padding-bottom: 0;
+}
+
+.top-selling .box {
+    margin-bottom: 50px;
+}
+
+.top-selling .box .img {
+    height: 257px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 257px;
+}
+
+.top-selling .box .img img {}
+
+.top-selling .box h5 {
+    font-size: 1rem;
+    color: #333333;
+    margin: 0 0 10px;
+    font-weight: 600;
+}
+
+.top-selling .box h5 span {
+    display: block;
+    font-size: 13px;
+    color: #666666;
+    margin-top: 9px;
+}
+
+.top-selling .box p {
+    font-size: 14px;
+    color: #666666;
+    margin: 20px 0;
+    font-weight: 500;
+}
+
+.top-selling .box a.btn {
+    padding: 11px 30px;
+}
+
+.top-selling .box ul {
+    margin-bottom: 20px;
+}
+
+.top-selling .box ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.top-selling .sub-heading {
+    color: white;
+    background: #fd384f;
+    padding: 11px 20px;
+    border-radius: 120px;
+    display: inline-block;
+    margin-bottom: 22px;
+}
+a.brd-red:hover {
+    background: #fd384f;
+    color: #fff;
+}
+footer ul li a:hover {
+    color: #e13139;
+}
+.product-header .head-search {
+    margin-left: -50px;
+    width: 117%;
+    border-color: #fd384f;
+}
