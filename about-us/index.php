@@ -478,7 +478,7 @@ include $_SERVER['DOCUMENT_ROOT'].'/include/csfr.php'; */?>
     </div>
 </section>
 <section class="anytime">
-    <div class="container"> s
+    <div class="container">
         <h2>
             Anytime, <br>
             Anywhere

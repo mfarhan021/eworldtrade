@@ -49,10 +49,11 @@ $(document).ready(function() {
         responsiveClass:true,
         responsive:{
             0:{
-                items:1,
+                items:2,
             },
             600:{
                 items:2,
+
             },
             1000:{
                 items:6,
@@ -61,7 +62,7 @@ $(document).ready(function() {
                 items:6,
             },
             500:{
-                items: 1,
+                items: 2,
             }
         }
     });
@@ -76,7 +77,7 @@ $(document).ready(function() {
         responsiveClass:true,
         responsive:{
             0:{
-                items:1,
+                items:2,
             },
             600:{
                 items:2,
@@ -88,7 +89,7 @@ $(document).ready(function() {
                 items:6,
             },
             500:{
-                items: 1,
+                items: 2,
             }
         }
     });
@@ -103,7 +104,7 @@ $(document).ready(function() {
         responsiveClass:true,
         responsive:{
             0:{
-                items:3,
+                items:4,
             },
             600:{
                 items:4,
@@ -115,7 +116,7 @@ $(document).ready(function() {
                 items:8,
             },
             500:{
-                items: 3,
+                items: 4,
             }
         }
     });
@@ -194,6 +195,34 @@ $(document).ready(function() {
         navText: ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
     });
     $('.owl-catpage').owlCarousel({
+        loop:true,
+        nav:true,
+        dots:false,
+        margin:20,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        autoplayHoverPause: false,
+        responsiveClass:true,
+        navText: ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+        responsive:{
+            0:{
+                items:1,
+            },
+            600:{
+                items:2,
+            },
+            1000:{
+                items:6,
+            },
+            1200:{
+                items:6,
+            },
+            500:{
+                items: 1,
+            }
+        }
+    });
+    $('.owl-productitem').owlCarousel({
         loop:true,
         nav:true,
         dots:false,

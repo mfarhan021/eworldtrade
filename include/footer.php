@@ -169,35 +169,34 @@
     </div>
 </footer>
 
-<div class="fixed-premium ">
+<!--<div class="fixed-premium">
     <a href="#" title="Premium Services" target="_blank">
         Our Premium Services
-        <img src="<?php echo $siteurl ?>/assets/images/star-pre.png" alt="">
-        <img class="pre-btn" src="<?php echo $siteurl ?>/assets/images/pre-btn.png" alt="">
+        <img src="<?php /*echo $siteurl */?>/assets/images/star-pre.png" alt="">
+        <img class="pre-btn" src="<?php /*echo $siteurl */?>/assets/images/pre-btn.png" alt="">
     </a>
 </div>
-
 <div class="fixed-btn">
     <div class="btn-fi1">
         <a href="#" class="btn-fx">
-            <img src="<?php echo $siteurl ?>/assets/images/fx-btn1.png" alt="">
+            <img src="<?php /*echo $siteurl */?>/assets/images/fx-btn1.png" alt="">
             RFQ
         </a>
         <a href="#" class="btn-fx">
-            <img src="<?php echo $siteurl ?>/assets/images/fx-btn2.png" alt="">
+            <img src="<?php /*echo $siteurl */?>/assets/images/fx-btn2.png" alt="">
             RFQ
         </a>
         <a href="#" class="btn-fx">
-            <img src="<?php echo $siteurl ?>/assets/images/fx-btn3.png" alt="">
+            <img src="<?php /*echo $siteurl */?>/assets/images/fx-btn3.png" alt="">
             RFQ
         </a>
     </div>
     <div class="btn-fi2">
         <a href="#" class="btn-fx">
-            <img src="<?php echo $siteurl ?>/assets/images/fx-btn4.png" alt="">
+            <img src="<?php /*echo $siteurl */?>/assets/images/fx-btn4.png" alt="">
         </a>
         <a href="#" class="btn-fx">
-            <img src="<?php echo $siteurl ?>/assets/images/fx-btn5.png" alt="">
+            <img src="<?php /*echo $siteurl */?>/assets/images/fx-btn5.png" alt="">
         </a>
     </div>
-</div>
+</div>-->

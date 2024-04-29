@@ -2,10 +2,10 @@
     padding: 25px 0;  
 } 
 .about-banner{   
-    padding-top: 20px;  
+    padding-top: 20px;   
     padding-bottom: 0; 
-}
-.about-banner .container{
+} 
+.about-banner .container{ 
     background: url("../images/about-banner.jpg")no-repeat;
     background-size: cover;
     height: 757px;
@@ -118,7 +118,9 @@
     margin: 0 0 30px;
     font-size: 15px;
 }
-.key-sucess {}
+.key-sucess {
+    padding: 40px 0;
+}
 
 .key-sucess .mission {
     background: #ececec;
@@ -148,7 +150,7 @@
 }
 .key-sucess .vision{
     padding: 0 50px;
-}
+} 
 .key-sucess .vision p {
     font-size: 1.2rem;
     color: #6c6c6c;
@@ -760,7 +762,7 @@ a.brd-red {border: 1px solid #fd384f;
 }
 
 .top-selling .box {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .top-selling .box .img {
@@ -824,4 +826,384 @@ footer ul li a:hover {
     margin-left: -50px;
     width: 117%;
     border-color: #fd384f;
+}
+
+
+
+.cus-check [type="radio"]:checked,
+.cus-check [type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+.cus-check [type="radio"]:checked + label,
+.cus-check [type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 21px;
+    cursor: pointer;
+    display: inline-block;
+    color: #6c6c6c;
+    font-size: 13px;
+    font-weight: 500;
+}
+.cus-check [type="radio"]:checked + label:before,
+.cus-check [type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 3px;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #ececec;
+    border-radius: 100%;
+    background: #666666;
+}
+.cus-check [type="radio"]:checked + label:before {
+    background: #fd384f;
+}
+.cus-check [type="radio"]:checked + label {color: #000000;}
+.sub-cat-page .filter .box ul.list-inline li {
+    margin-right: 15px;
+}
+.top-selling .box a.btn {
+    font-weight: 500;
+    font-size: 15px;
+    padding: 9px 30px;
+}
+.company-head {
+    border-top: 1px solid #e0e0e0;
+    padding: 30px 0;
+}
+
+.company-head .row {
+    align-items: center;
+}
+
+.company-head ul.logbar {
+}
+
+.company-head ul.logbar li {
+    display: inline-block;
+    margin-right: 25px;
+    position: relative;
+    vertical-align: middle;
+}
+
+.company-head ul.logbar li img {
+    /* max-width: 15%; */
+}
+
+.company-head ul.logbar li h5 {
+    margin: 0;
+    font-size: 1rem;
+    color: #150c10;
+    font-weight: 600;
+    margin: 0 0 9px;
+}
+
+.company-head ul.logbar li h6 {
+    margin: 0;
+    display: inline-block;
+    margin-left: 0;
+    font-size: 14px;
+    vertical-align: sub;
+    font-weight: 600;
+}
+.company-head ul.logbar li.list-group {
+}
+
+.company-head ul.logbar li.list-group img {
+    max-width: 105px;
+    margin-right: 5px;
+}
+.company-search {
+    border: 2px solid black;
+    width: 70%;
+    float: right;
+}
+
+.company-search button {
+    background: black;
+    padding: 10px 27px;
+}
+
+.company-search input[type="search"] {padding: 10px 18px;width: 56%;}
+.company-search select {
+    width: 25%;
+}
+.company-menu {
+    background: #ea7231;
+    padding: 0;
+}
+
+.company-menu ul {}
+
+.company-menu ul li {
+    display: inline-block;
+}
+
+.company-menu ul li a {
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.company-menu ul li a.btn {}
+
+.company-menu ul li a:hover {
+    background: #000;
+}
+
+.btn-white {
+    background: white;
+}
+
+.btn-block {
+    margin: 0;
+}
+
+.btn-block a {
+    margin-left: 10px;
+    border: 1px solid;
+}
+
+.btn i {
+    margin-right: 2px;
+    font-size: 15px;
+}
+.company-banner {
+    padding: 0;
+}
+
+.company-banner img {
+    width: 100%;
+}
+.company-group {}
+
+.company-group .products {
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+    float: left;
+    width: 100%;
+    padding: 30px;
+}
+
+.company-group .products h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0 20px;
+}
+
+.company-group .products ul {}
+
+.company-group .products ul li {
+    margin: 0 0 16px;
+}
+
+.company-group .products .viewall {
+    font-size: 13px;
+    color: #fd384f;
+    font-weight: 600;
+    float: right;
+    text-decoration: underline;
+}
+
+.company-group .products ul li a {
+    font-size: 14px;
+    color: #150c10;
+    font-weight: 600;
+}
+
+.company-group .products ul li a img {
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.company-group .products ul li a span {
+    border-bottom: 2px dashed #dadada;
+    display: inline-block;
+    padding-bottom: 16px;
+    width: 68%;
+}
+.company-group .content {}
+
+.company-group .content .block {
+    margin: 0 0 22px;
+}
+
+.company-group .content .block h4 {
+    margin: 0 0 10px;
+    font-size: 1rem;
+}
+
+.company-group .content .block p {
+    margin: 0;
+    font-size: 13px;
+    color: #6c6c6c;
+}
+
+.company-group .content .btn-block {
+    margin-top: 10px;
+}
+.company-group .content .btn-block a {
+    margin-left: 0;
+    margin-right: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.company-group .content .btn-block a i {
+    font-size: 12px;
+    margin-right: 5px;
+}
+a.red-txt {
+    font-size: 13px;
+    color: #fd384f;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.key-sucess .heading h2 {}
+.product-highlight {
+    /* background: #f6f6f6; */
+    padding-bottom: 0;
+}
+
+.product-highlight .item {}
+
+.product-highlight figure {}
+
+.product-highlight figure .image {
+    height: 206px;
+    overflow: hidden;
+    border-radius: 10px; 
+    text-align: center;
+    border: 1px solid #ececec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.product-highlight figure .image img {
+    width: auto;
+    display: table;
+    margin: auto;
+}
+
+.product-highlight figure figcaption {
+    margin-top: 20px;
+}
+
+.product-highlight figure figcaption p {
+    font-size: 13px;
+    color: #666666;
+    margin: 0 0 15px;
+}
+
+.product-highlight figure figcaption .price {}
+
+.product-highlight figure figcaption .price h5 {
+    font-size: 16px;
+    color: #333333;
+    font-weight: 700;
+    margin: 0 0 7px;
+}
+
+.product-highlight figure figcaption .price h5 span {
+    font-size: 13px;
+    color: #666666;
+    font-weight: 400;
+}
+
+.product-highlight figure figcaption .price h6 {
+    font-size: 13px;
+    color: #333333;
+    margin: 0;
+}
+.owl-productitem .owl-nav {
+    margin: 0;
+    position: absolute;
+    top: -60px;
+    right: 0;
+}
+
+.owl-productitem .owl-nav button {
+    margin: 0 8px !important;
+}
+
+.product-highlight .container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.btn-black-brd {
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.product-highlight figure figcaption a.btn {
+    margin-top: 20px;
+    font-size: 14px;
+    padding: 8px 20px;
+}
+
+.btn-black-brd:hover {
+    background: #000;
+    color: white;
+}
+.our-stream .row-stream {
+    align-items: center;
+}
+.region {
+    /* background: #f6f6f6; */
+    padding: 30px 0 50px;
+}
+
+.region ul {}
+
+.region ul li {
+    display: inline-block;
+    background: white;
+    padding: 20px 20px;
+    width: 18.6%;
+    height: 110px;
+    margin-right: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ececec;
+    border-radius: 10px;
+}
+
+.region ul li .icon {
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+    border: 1px solid #dadada;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.region ul li .icon img {}
+
+.region ul li span {
+    display: inline-block;
+    color: #333333;
+    font-size: 12px;
+}
+
+.region ul li span strong {
+    display: block;
+    font-size: 14px;
+}
+main.bg {
+    background: #f6f6f6;
+}
+.region ul li:last-child {
+    margin-right: 0;
 }

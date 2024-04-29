@@ -1374,7 +1374,7 @@ include $_SERVER['DOCUMENT_ROOT'].'/include/csfr.php'; */?>
     </div>
 </main>
 
-<?php include($_SERVER['DOCUMENT_ROOT']."/eworldtrade/include/escows.php"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/eworldtrade/include/escow.php"); ?>
 <?php include($_SERVER['DOCUMENT_ROOT']."/eworldtrade/include/footer.php"); ?>
 <?php include($_SERVER['DOCUMENT_ROOT']."/eworldtrade/include/footer-scripts.php"); ?>
 </body>

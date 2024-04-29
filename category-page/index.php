@@ -22,112 +22,42 @@ include $_SERVER['DOCUMENT_ROOT'].'/include/csfr.php'; */?>
                 <div>
                     <a href="javascript:">
                         <img src="<?php echo $siteurl ?>/assets/images/category-thumb.jpg" alt="">
+                        <h6>Seats/Tip-Up Seats</h6>
                     </a>
-                    <h6>Seats/Tip-Up Seats</h6>
                 </div>
                 <div>
                     <a href="javascript:">
                         <img src="<?php echo $siteurl ?>/assets/images/category-thumb.jpg" alt="">
+                        <h6>Seats/Tip-Up Seats</h6>
                     </a>
-                    <h6>Seats/Tip-Up Seats</h6>
-                </div>
-            </div>
-            <div class="item">
-                <div>
-                    <a href="javascript:">
-                        <img src="<?php echo $siteurl ?>/assets/images/category-thumb.jpg" alt="">
-                    </a>
-                    <h6>Seats/Tip-Up Seats</h6>
-                </div>
-                <div>
-                    <a href="javascript:">
-                        <img src="<?php echo $siteurl ?>/assets/images/category-thumb.jpg" alt="">
-                    </a>
-                    <h6>Seats/Tip-Up Seats</h6>
                 </div>
             </div>
             <div class="item">
                 <div>
                     <a href="javascript:">
                         <img src="<?php echo $siteurl ?>/assets/images/category-thumb.jpg" alt="">
+                        <h6>Seats/Tip-Up Seats</h6>
                     </a>
-                    <h6>Seats/Tip-Up Seats</h6>
                 </div>
                 <div>
                     <a href="javascript:">
                         <img src="<?php echo $siteurl ?>/assets/images/category-thumb.jpg" alt="">
+                        <h6>Seats/Tip-Up Seats</h6>
                     </a>
-                    <h6>Seats/Tip-Up Seats</h6>
-                </div>
-            </div>
-            <div class="item">
-                <div>
-                    <a href="javascript:">
-                        <img src="<?php echo $siteurl ?>/assets/images/category-thumb.jpg" alt="">
-                    </a>
-                    <h6>Seats/Tip-Up Seats</h6>
-                </div>
-                <div>
-                    <a href="javascript:">
-                        <img src="<?php echo $siteurl ?>/assets/images/category-thumb.jpg" alt="">
-                    </a>
-                    <h6>Seats/Tip-Up Seats</h6>
                 </div>
             </div>
             <div class="item">
                 <div>
                     <a href="javascript:">
                         <img src="<?php echo $siteurl ?>/assets/images/category-thumb.jpg" alt="">
+                        <h6>Seats/Tip-Up Seats</h6>
                     </a>
-                    <h6>Seats/Tip-Up Seats</h6>
                 </div>
                 <div>
                     <a href="javascript:">
                         <img src="<?php echo $siteurl ?>/assets/images/category-thumb.jpg" alt="">
+                        <h6>Seats/Tip-Up Seats</h6>
                     </a>
-                    <h6>Seats/Tip-Up Seats</h6>
-                </div>
-            </div>
-            <div class="item">
-                <div>
-                    <a href="javascript:">
-                        <img src="<?php echo $siteurl ?>/assets/images/category-thumb.jpg" alt="">
-                    </a>
-                    <h6>Seats/Tip-Up Seats</h6>
-                </div>
-                <div>
-                    <a href="javascript:">
-                        <img src="<?php echo $siteurl ?>/assets/images/category-thumb.jpg" alt="">
-                    </a>
-                    <h6>Seats/Tip-Up Seats</h6>
-                </div>
-            </div>
-            <div class="item">
-                <div>
-                    <a href="javascript:">
-                        <img src="<?php echo $siteurl ?>/assets/images/category-thumb.jpg" alt="">
-                    </a>
-                    <h6>Seats/Tip-Up Seats</h6>
-                </div>
-                <div>
-                    <a href="javascript:">
-                        <img src="<?php echo $siteurl ?>/assets/images/category-thumb.jpg" alt="">
-                    </a>
-                    <h6>Seats/Tip-Up Seats</h6>
-                </div>
-            </div>
-            <div class="item">
-                <div>
-                    <a href="javascript:">
-                        <img src="<?php echo $siteurl ?>/assets/images/category-thumb.jpg" alt="">
-                    </a>
-                    <h6>Seats/Tip-Up Seats</h6>
-                </div>
-                <div>
-                    <a href="javascript:">
-                        <img src="<?php echo $siteurl ?>/assets/images/category-thumb.jpg" alt="">
-                    </a>
-                    <h6>Seats/Tip-Up Seats</h6>
                 </div>
             </div>
         </div>
